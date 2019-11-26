@@ -1,0 +1,26 @@
+MATRICULA | RESPOSTA
+100 : B C E E A A D D A B E A C B A B E D C B A A E D E
+101 : B C E E A D B A E C D D E B A C A E D C B E D C E
+102 : B A D D A B C A E C D D E B A C D C C B A A E D E
+103 : B C E E A D B A E C D D E B A C B B A D A B C D E
+104 : B C E E A A D A E C D D C B A A A E D C B E D C E
+105 : B C E E A A D A E C D D C B A A B E D C B A E D E
+106 : B C E E A A A A E C D D C C A A A E D C B E D C E
+107 : B C E E A A A A E C D D A C C D A E D D A B C D E
+108 : B C E E A A A A E C D D C B A A B E D C B E D D E
+109 : B C E E A A D A E C D D C C A A A A C E E D A D E
+110 : B C E E A D D A A B E A C C A A A E D C B E D D E
+111 : B C E E A B A A A B E A C B A A A E D C B E D A E
+112 : B C E E A B D A A B E A C B C E E A B D A B C D E
+113 : B C E E A A A D A B E A C A A A A E D C B E D A E
+114 : B C E E A A D A E C D D C A A A E A C D A B C D E
+115 : B C E D A D B D A B D C B E D C B A B E A C C D E
+116 : B C E E A A D A A B E A C C A A A E D C B E D D E
+117 : B C E E A A D A A B E A C B A A A E D D A B C D E
+118 : B C E E A A A E C D D C B A A A E D C B E D D A E
+119 : B C E E A A D A A B E A C B A A A E D C B E D D E
+120 : B C E E A A A E C D D A C B A C E E A D A B C D E
+121 : B C E E A A A A A B A E D C B E B E D C B E D D E
+122 : B C E E A A D A A B E A C B A A A E D C B E D D E
+123 : A C E D C A D A A B B B D A E A A E D C B E D C E
+124 : A A E A A E D C B E D C E A E A A E D D A B C D E
