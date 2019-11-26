@@ -12,8 +12,6 @@ for resp in respostaGabarito:
     vetorCorretas.append(resp)
 
 
-
-
 arqMatricula = open('respostas.txt','r')
 cont = 0
 for line in arqMatricula:
@@ -21,7 +19,6 @@ for line in arqMatricula:
         vetorMatricula.append(line[:4])
         vetorRespostas.append(line[5:])
     cont+=1
-
 
 
 respAlunos = []
@@ -40,8 +37,6 @@ for r in respAlunos:
         cont2+=1
     vetorResultado.append('|')
     cont2=0
-
-
 
 respCertas = 0
 respErradas = 0
@@ -72,9 +67,6 @@ for r in vetorResultado:
     else:
         arqResultado.write(r+' ')
 
- 
-
-
     if r =='|':
         i=0
         if respCertas > 9:
@@ -96,14 +88,9 @@ for r in vetorResultado:
         respCertas = 0
         respErradas = 0
         
-
-
-
 arqResultado.write(str(numAprovados)+' APROVADO(S)\n')
 arqResultado.write(str(numExame)+' EXAME(S)\n')
 arqResultado.write(str(numReprovados)+' REPROVADO(S)\n')
-
-
 
 j = 0
 while j<=24:
@@ -116,5 +103,4 @@ while j<=24:
         arqResultado.write(str(vetorAcertadas[j]) + str(vetorErradas[j])+' ')
     
     j+=1
-
 arqResultado.close()
