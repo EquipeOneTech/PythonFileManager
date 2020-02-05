@@ -92,8 +92,8 @@ arqResultado.write(str(numAprovados)+' APROVADO(S)\n')
 arqResultado.write(str(numExame)+' EXAME(S)\n')
 arqResultado.write(str(numReprovados)+' REPROVADO(S)\n')
 
-j = 0
-while j<=24:
+
+for j in range(25):
     if vetorAcertadas[j] < 10:
         if j == 0:
             arqResultado.write('      ')
@@ -108,5 +108,5 @@ while j<=24:
             arqResultado.write('      ')
         arqResultado.write(str(vetorAcertadas[j]) + str(vetorErradas[j])+' ')
     
-    j+=1
+    
 arqResultado.close()
