@@ -94,18 +94,13 @@ arqResultado.write(str(numReprovados)+' REPROVADO(S)\n')
 
 
 for j in range(25):
+    if j == 0:
+        arqResultado.write('      ')
     if vetorAcertadas[j] < 10:
-        if j == 0:
-            arqResultado.write('      ')
         arqResultado.write('0' + str(vetorAcertadas[j]) + str(vetorErradas[j])+' ')
-        j+=1
     elif vetorErradas[j] < 10:
-        if j == 0:
-            arqResultado.write('      ')
         arqResultado.write(str(vetorAcertadas[j]) + '0' + str(vetorErradas[j])+' ')
     else:
-        if j == 0:
-            arqResultado.write('      ')
         arqResultado.write(str(vetorAcertadas[j]) + str(vetorErradas[j])+' ')
     
     
