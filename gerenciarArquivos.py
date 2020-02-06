@@ -49,17 +49,15 @@ vetorErradas =   [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 i = 0
 
 for r in vetorResultado:
-    if r.__contains__('S'):
+    if r[2:]=='S':
         respCertas+=1
         vetorAcertadas[i] += 1
         i+=1
-
-    elif r.__contains__('N'):
+    elif r[2:]=='N':
         respErradas+=1
         vetorErradas[i] += 1
         i+=1 
 
-    
     num = respCertas + respErradas
     while posicaoAluno < 25 and num == 1:
         arqResultado.write(vetorMatricula[posicaoAluno]+' : ')
