@@ -59,9 +59,8 @@ for r in vetorResultado:
         i+=1 
 
     num = respCertas + respErradas
-    while posicaoAluno < 25 and num == 1:
+    if posicaoAluno < 25 and num == 1:
         arqResultado.write(vetorMatricula[posicaoAluno]+' : ')
-        break
     else:
         arqResultado.write(r+' ')
 
